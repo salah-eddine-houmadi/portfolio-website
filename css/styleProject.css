@@ -1,4 +1,4 @@
-/*/*font-family: 'Lobster', cursive;
+/*font-family: 'Lobster', cursive;
 font-family: 'Original Surfer', cursive;
 font-family: 'Coda Caption', sans-serif;      ::BUTTON
 */
@@ -743,7 +743,6 @@ footer{
 	background: #fffafa;
 	height: 300px;
 	display: flex;
-	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	position: relative;
@@ -752,17 +751,25 @@ footer p{
 	font-family: 'Oswald', sans-serif;
 }
 footer p:nth-child(1){
-	font-size: 30px;
+  width: 300px;
+  height: 90px;
+	font-size: 20px;
 	font-weight: bold;
 	color: #191919;
-	line-height: 10px;
+  margin: 1% 0 0 40%;
+}
+#checkin{
+  margin: 1% 0 0 45%;
+  padding-top: 2em;
 }
 footer p:nth-child(2){
   font-size: 16px;
   color: #7e7d7d;
   width: 600px;
   text-align: center;
+  margin: 2% 0 0 26%;
 }
+
 /*Social*/
 
 .social-icons a{
